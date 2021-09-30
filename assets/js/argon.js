@@ -180,37 +180,37 @@ if($map.length) {
 // //
 // // Headroom - show/hide navbar on scroll
 // //
-//
-// 'use strict';
-//
-// var Headroom = (function() {
-//
-// 	// Variables
-//
-// 	var $headroom = $('#navbar-main');
-//
-//
-// 	// Methods
-//
-// 	function init($this) {
-//
-//     var headroom = new Headroom(document.querySelector("#navbar-main"), {
-//         offset: 300,
-//         tolerance: {
-//             up: 30,
-//             down: 30
-//         },
-//     });
-//
-//
-//
-// 	// Events
-//
-// 	if ($headroom.length) {
-// 		headroom.init();
-// 	}
-//
-// })();
+
+ 'use strict';
+
+ var Headroom = (function() {
+
+ 	// Variables
+
+ 	var $headroom = $('#navbar-main');
+
+
+ 	// Methods
+
+ 	function init($this) {
+
+     var headroom = new Headroom(document.querySelector("#navbar-main"), {
+         offset: 300,
+         tolerance: {
+             up: 30,
+             down: 30
+         },
+     });
+
+
+
+ 	// Events
+
+ 	if ($headroom.length) {
+ 		headroom.init();
+ 	}
+
+ })();
 
 //
 // Navbar
@@ -312,27 +312,27 @@ var noUiSlider = (function() {
 
 	// Variables
 
-	// var $sliderContainer = $('.input-slider-container'),
-	// 		$slider = $('.input-slider'),
-	// 		$sliderId = $slider.attr('id'),
-	// 		$sliderMinValue = $slider.data('range-value-min');
-	// 		$sliderMaxValue = $slider.data('range-value-max');;
+	 var $sliderContainer = $('.input-slider-container'),
+	 		$slider = $('.input-slider'),
+	 		$sliderId = $slider.attr('id'),
+	 		$sliderMinValue = $slider.data('range-value-min');
+	 		$sliderMaxValue = $slider.data('range-value-max');;
 
 
-	// // Methods
-	//
-	// function init($this) {
-	// 	$this.on('focus blur', function(e) {
-  //       $this.parents('.form-group').toggleClass('focused', (e.type === 'focus' || this.value.length > 0));
-  //   }).trigger('blur');
-	// }
-	//
-	//
-	// // Events
-	//
-	// if ($input.length) {
-	// 	init($input);
-	// }
+	 // Methods
+	
+	 function init($this) {
+	 	$this.on('focus blur', function(e) {
+  	       $this.parents('.form-group').toggleClass('focused', (e.type === 'focus' || this.value.length > 0));
+  	   }).trigger('blur');
+	 }
+	
+	
+	 // Events
+	
+	 if ($input.length) {
+	 	init($input);
+	 }
 
 
 
