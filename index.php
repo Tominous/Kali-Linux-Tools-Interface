@@ -109,8 +109,8 @@
 
 
 							<?php
-								// $ssh = getConnectionSSH();
-								//echo $ssh->exec('');
+								 $ssh = getConnectionSSH();
+								echo $ssh->exec('');
 								
 							?>
 					
