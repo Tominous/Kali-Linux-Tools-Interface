@@ -59,7 +59,6 @@
         </div>
       </div>
       <!-- Form -->
-      <!--
       <form class="mt-4 mb-3 d-md-none">
         <div class="input-group input-group-rounded input-group-merge">
           <input type="search" class="form-control form-control-rounded form-control-prepended" placeholder="Search" aria-label="Search">
@@ -69,7 +68,7 @@
             </div>
           </div>
         </div>
-      </form>-->
+      </form>
       <!-- Navigation -->
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -135,14 +134,14 @@
     <div class="container-fluid">
       <!-- Form -->
       <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
-      <!--  <div class="form-group mb-0">
+        <div class="form-group mb-0">
           <div class="input-group input-group-alternative">
             <div class="input-group-prepend">
               <span class="input-group-text"><i class="fas fa-search"></i></span>
             </div>
             <input class="form-control" placeholder="Search" type="text">
           </div>
-        </div>-->
+        </div>
       </form>
       <!-- User -->
       <ul class="navbar-nav align-items-center d-none d-md-flex">
@@ -165,7 +164,7 @@
               <i class="ni ni-single-02"></i>
               <span>My profile</span>
             </a>
-            <!--
+            
             <a href="./examples/profile.html" class="dropdown-item">
               <i class="ni ni-settings-gear-65"></i>
               <span>Settings</span>
@@ -177,7 +176,7 @@
             <a href="./examples/profile.html" class="dropdown-item">
               <i class="ni ni-support-16"></i>
               <span>Support</span>
-            </a>-->
+            </a>
             <div class="dropdown-divider"></div>
             <a href="login.php" class="dropdown-item">
               <i class="ni ni-user-run"></i>
