@@ -20,8 +20,8 @@
             	
             	<div class="card-body">
 							<?php
-								// $ssh = getConnectionSSH();
-								//echo $ssh->exec('');
+								 $ssh = getConnectionSSH();
+								echo $ssh->exec('');
 								
 							?>
 					
