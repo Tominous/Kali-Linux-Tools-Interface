@@ -123,8 +123,8 @@ Command executed successfully.</span>
 	}
 
 	function packet_handler($str) {
-		//echo  '<pre id="full_output" style="color: white">' . $str . '</pre>';
-    //echo "<textarea>".$str."</textarea>";
+		echo  '<pre id="full_output" style="color: white">' . $str . '</pre>';
+    echo "<textarea>".$str."</textarea>";
 		echo $str;
     flush();
 		ob_flush();
